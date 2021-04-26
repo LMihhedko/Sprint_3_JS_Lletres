@@ -1,0 +1,56 @@
+.container {
+  background-color: #363537;
+  width:500px;
+  min-height:500px;
+  margin: 50px auto;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+h1 {
+  color:white;
+}
+
+#boton1, #boton2, #boton3, #boton4, #boton5 {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight:bold;
+    border-radius: 12px;
+    border: 2px solid white;
+    width:80%;
+    max-height:50px;
+    cursor: pointer;
+  }
+
+#boton1 {
+  background-color: #5bc0eb; 
+}
+
+#boton1:focus, #boton2:focus, #boton3:focus, #boton4:focus, #boton5:focus {     
+  background-color: #3cff00;    
+}
+
+#boton2 {
+  background-color: #ef2d56; 
+}
+
+
+#boton3 {
+  background-color: #ed7d3a ; 
+}
+
+
+#boton4 {
+  background-color: #ffc400; 
+}
+
+#boton5 {
+  grid-column: span 2; 
+
+  background-color: #0cce6b; 
+  
+}
